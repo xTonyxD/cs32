@@ -1,0 +1,87 @@
+The thought for most problems here were relatively straightforward. What was hard was dealing with edge cases. One edge case that bit me in the ass was dealing with the case where the "object" of the algorithm was at the head. The thing that caused this problem was a fix to another problem where Visual CPP would spit something like a null pointer error back at me. I didn't notice this until I submitted the project, and the autograder caught it for me.
+
+Test cases:
+
+List l1;
+for (int i = 0; i < 10; i++) {
+	l1.addToFront(std::to_string(i));
+}
+
+cout << l1.printItems();
+cout << l1.size() << endl; 
+//find out if size iteration works
+
+List empty;
+cout << empty.size() << endl;
+//edge case wehre there's 0 elements
+
+string str = "";
+cout << l1.get(5, str) << ", " << str << endl;
+//figure out if the get method actually works
+
+cout << empty.get(5, str) << ", " << str << endl;
+//edge case where there's nothing in the list
+
+cout << l1.get(100, str) << ", " << str << endl;
+//edge case wehre it doesn't exist
+
+
+
+cout << "testing max method" << endl;
+List l3;
+l3.addToFront("Hawkeye");
+l3.addToFront("Thor");
+l3.addToFront("Hulk");
+l3.addToFront("Black Widow");
+l3.addToFront("Iron Man");
+l3.addToFront("Captain America");
+
+cout << l3.max() << endl;
+cout << "l1: " << l1.printItems() << endl;
+cout << l1.max() << endl;
+	
+cout << "***************testing allmorethan***************" << endl;
+cout << l3.allMoreThan("Iron Man") << endl;
+//find out if it actually works (just in the middle, should be false 
+cout << l3.allMoreThan("Thor") << endl;
+//find out if it actually works (everything is LES than thor, should be false
+cout << l3.allMoreThan("0") << endl;
+//fnd out if it actually works (everything should be geater than just 0, so true
+
+
+cout << "***************testing strip***************" << endl;
+l3.addToFront("Black Widow");
+l3.addToFront("Iron Man");
+l3.addToFront("Captain America");
+cout << l3.printItems() << endl;
+
+cout << l3.strip("Iron Man") << " stripped, now: ";
+//see both if it actually takes the items out and if it reports the right number
+cout << l3.printItems() << endl;
+
+cout << "***************testing count***************" << endl;
+cout << l3.count("Thor") << endl;
+//count occurances of something
+cout << l3.count("ok") << endl;
+//count occurances of something that doesn't exist
+
+cout << "***************testing weird shit***************" << endl;
+
+bool answer = true;
+List list;
+string s = "";
+list.addToFront("a");
+list.addToFront("b");
+list.addToFront("c");
+list.addToFront("d");
+list.addToFront("c");
+cout << list.strip("c") << " || " << list.printItems() << endl;
+//find out if strip works when there's a target element at the head
+
+answer = (list.get(0, s) && s == "d");
+answer = answer && (list.get(1, s) && s == "b");
+cout << answer << endl;
+//couble check everything changed as epxected
+
+answer = answer && (list.get(2, s) && s == "a");
+cout << answer << endl;

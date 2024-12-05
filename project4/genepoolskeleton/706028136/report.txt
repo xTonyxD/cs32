@@ -1,0 +1,24 @@
+This was slightly more difficult. First and foremost was finding the isLoaded bug. I guess I missed it during class, but I spent two hours figuring that part out. That was annoying. Nullpointers were also my other biggest issue; sometimes I'd consider a nullpointer a full parent (since I assumed half siblings counted as siblings), and then siblings would output a large list of people with no known parents. Another issue was with finding grandparents; I was making a new parent when the parent already existed, and not making a new parent when the parent already existed. This didn't throw a null pointer error at me probably because the parent already existed, so there were just duplicates sitting in the list. Very annoying.
+
+
+TEST CASES
+(using sample.tsv)
+1st make sure the thing works and doesn't error on build or runtime
+then print names of every element to cerr to ensure all items are added
+
+Adam grandparents (figure out if grandparents get added right)
+Ada grandparents (same)
+
+Joy grandparents (null grandparents null parents)
+Willem grandparents (1 parent, siblings test case)
+Coral grandparents (1 grandparent 2 parents
+Adam grandparents (normal grandparents)
+Adam parents (normal parents)
+Willem parents (1 parent)
+Willem siblings (half siblings)
+Vera grandparents (no grandparents)
+Thomas parents (no parents again)
+
+Willem sisters (half siblings and sisters)
+Willem brothers (half siblings and brothers)
+Joy siblings (no siblings)

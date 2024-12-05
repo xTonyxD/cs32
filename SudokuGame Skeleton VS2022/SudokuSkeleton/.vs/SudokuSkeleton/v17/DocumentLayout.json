@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\antho\\Downloads\\SudokuGame Skeleton VS2022\\SudokuSkeleton\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CAE116D-99C8-42C4-8DB4-5EF60C6F185B}|SudokuSkeleton\\SudokuSkeleton.vcxproj|C:\\Users\\antho\\Downloads\\SudokuGame Skeleton VS2022\\SudokuSkeleton\\SudokuSkeleton\\Board.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CAE116D-99C8-42C4-8DB4-5EF60C6F185B}|SudokuSkeleton\\SudokuSkeleton.vcxproj|solutionrelative:SudokuSkeleton\\Board.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CAE116D-99C8-42C4-8DB4-5EF60C6F185B}|SudokuSkeleton\\SudokuSkeleton.vcxproj|C:\\Users\\antho\\Downloads\\SudokuGame Skeleton VS2022\\SudokuSkeleton\\SudokuSkeleton\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CAE116D-99C8-42C4-8DB4-5EF60C6F185B}|SudokuSkeleton\\SudokuSkeleton.vcxproj|solutionrelative:SudokuSkeleton\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CAE116D-99C8-42C4-8DB4-5EF60C6F185B}|SudokuSkeleton\\SudokuSkeleton.vcxproj|C:\\Users\\antho\\Downloads\\SudokuGame Skeleton VS2022\\SudokuSkeleton\\SudokuSkeleton\\NumberSet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CAE116D-99C8-42C4-8DB4-5EF60C6F185B}|SudokuSkeleton\\SudokuSkeleton.vcxproj|solutionrelative:SudokuSkeleton\\NumberSet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CAE116D-99C8-42C4-8DB4-5EF60C6F185B}|SudokuSkeleton\\SudokuSkeleton.vcxproj|C:\\Users\\antho\\Downloads\\SudokuGame Skeleton VS2022\\SudokuSkeleton\\SudokuSkeleton\\Cell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CAE116D-99C8-42C4-8DB4-5EF60C6F185B}|SudokuSkeleton\\SudokuSkeleton.vcxproj|solutionrelative:SudokuSkeleton\\Cell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CAE116D-99C8-42C4-8DB4-5EF60C6F185B}|SudokuSkeleton\\SudokuSkeleton.vcxproj|C:\\Users\\antho\\Downloads\\SudokuGame Skeleton VS2022\\SudokuSkeleton\\SudokuSkeleton\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CAE116D-99C8-42C4-8DB4-5EF60C6F185B}|SudokuSkeleton\\SudokuSkeleton.vcxproj|solutionrelative:SudokuSkeleton\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\antho\\Downloads\\SudokuGame Skeleton VS2022\\SudokuSkeleton\\SudokuSkeleton\\Game.cpp",
+              "RelativeDocumentMoniker": "SudokuSkeleton\\Game.cpp",
+              "ToolTip": "C:\\Users\\antho\\Downloads\\SudokuGame Skeleton VS2022\\SudokuSkeleton\\SudokuSkeleton\\Game.cpp",
+              "RelativeToolTip": "SudokuSkeleton\\Game.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAHEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-11T02:27:09.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NumberSet.cpp",
+              "DocumentMoniker": "C:\\Users\\antho\\Downloads\\SudokuGame Skeleton VS2022\\SudokuSkeleton\\SudokuSkeleton\\NumberSet.cpp",
+              "RelativeDocumentMoniker": "SudokuSkeleton\\NumberSet.cpp",
+              "ToolTip": "C:\\Users\\antho\\Downloads\\SudokuGame Skeleton VS2022\\SudokuSkeleton\\SudokuSkeleton\\NumberSet.cpp",
+              "RelativeToolTip": "SudokuSkeleton\\NumberSet.cpp",
+              "ViewState": "AgIAABwAAAAAAAAAAAArwDUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-11T02:17:18.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cell.cpp",
+              "DocumentMoniker": "C:\\Users\\antho\\Downloads\\SudokuGame Skeleton VS2022\\SudokuSkeleton\\SudokuSkeleton\\Cell.cpp",
+              "RelativeDocumentMoniker": "SudokuSkeleton\\Cell.cpp",
+              "ToolTip": "C:\\Users\\antho\\Downloads\\SudokuGame Skeleton VS2022\\SudokuSkeleton\\SudokuSkeleton\\Cell.cpp",
+              "RelativeToolTip": "SudokuSkeleton\\Cell.cpp",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-11T02:17:16.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Board.cpp",
+              "DocumentMoniker": "C:\\Users\\antho\\Downloads\\SudokuGame Skeleton VS2022\\SudokuSkeleton\\SudokuSkeleton\\Board.cpp",
+              "RelativeDocumentMoniker": "SudokuSkeleton\\Board.cpp",
+              "ToolTip": "C:\\Users\\antho\\Downloads\\SudokuGame Skeleton VS2022\\SudokuSkeleton\\SudokuSkeleton\\Board.cpp",
+              "RelativeToolTip": "SudokuSkeleton\\Board.cpp",
+              "ViewState": "AgIAACwAAAAAAAAAAAArwD0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-11T02:16:01.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\antho\\Downloads\\SudokuGame Skeleton VS2022\\SudokuSkeleton\\SudokuSkeleton\\main.cpp",
+              "RelativeDocumentMoniker": "SudokuSkeleton\\main.cpp",
+              "ToolTip": "C:\\Users\\antho\\Downloads\\SudokuGame Skeleton VS2022\\SudokuSkeleton\\SudokuSkeleton\\main.cpp",
+              "RelativeToolTip": "SudokuSkeleton\\main.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-11T02:15:28.515Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
