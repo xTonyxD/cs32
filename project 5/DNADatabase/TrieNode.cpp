@@ -155,7 +155,7 @@ int  TrieNode::height() const
         if (tempMax > max) max = tempMax;
     }
     
-    << max + 1<< ", getting out" << endl;
+    //cout << max + 1<< ", getting out" << endl;
     return max + 1; //1 for itself
 }
 // stringify this TrieNode and all of its children nodes

@@ -79,20 +79,28 @@ bool Trie::contains( std::string word ) const
 // each letter should be found in nextNodeMap value of a TrieNode hanging off the root of this Trie
 bool Trie::prefixExists( std::string prefix ) const
 {
+    using namespace std;
     TrieNode* node = mRoot;
-    std::string::iterator i;
-    for (i = prefix.begin(); i != prefix.end(); i++) {
-        if (!(node->dataExists(*i))) { //next char not found in children
+    char ele = prefix[0];
+    //node->printmap();
+    for (int i = 0; i < prefix.length() - 1; i++) {
+        ele = prefix[i];
+        //node->printmap();
+        //cout << "looking for ele " << ele << endl;
+        //cout << (node->dataExists(ele)) << endl;
+        if (!(node->dataExists(ele))) { //next char not found in children
+            
             return false;
         }
         else { //default
-            node = node->find(*i)->second;
+            node = node->find(ele)->second;
         }
     }
-    if (node->dataExists(*i)) { //word found; alr end of word
+    //cout << "A" << endl;
+    if (node->dataExists(prefix.back())) { //word found; alr end of word
         return true;
     }
-
+    //cout << "A2" << endl;
     return false;
 }
 

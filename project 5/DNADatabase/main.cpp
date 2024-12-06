@@ -11,8 +11,10 @@
 
 #include "Trie.h"
 #include "DNADatabase.h"
+using namespace std;
+using namespace cs32;
 
-
+/*
 int main( ) {
     int type = 0;
     
@@ -203,3 +205,18 @@ int main( ) {
         
     }
 } 
+
+*/
+int main() {
+    Trie trie;
+    trie.insert("pixie");
+    trie.insert("howard");
+    assert(trie.contains("pixie"));
+    assert(trie.contains("howard"));
+    assert(trie.prefixExists("h"));
+    assert(trie.prefixExists("p"));
+    assert(trie.prefixExists("how"));
+    assert(trie.prefixExists("pix"));
+    assert(trie.prefixExists("howard"));
+    assert(trie.prefixExists("pixie"));
+}
