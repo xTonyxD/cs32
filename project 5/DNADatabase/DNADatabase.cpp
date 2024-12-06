@@ -23,6 +23,8 @@ bool DNADatabase::findSequence( std::string sequence ) const
 // TODO
 bool DNADatabase::addSequence( std::string sequence )
 {
+    if (!isValid(sequence)) return false;
+
     int size = mTrie.size();
     mTrie.insert(sequence);
 
@@ -32,9 +34,11 @@ bool DNADatabase::addSequence( std::string sequence )
 // TODO
 bool DNADatabase::isValid( std::string sequence ) const
 {
+    
     std::string::iterator i;
     for (i = sequence.begin(); i != sequence.end(); i++) {
-        if (*i != 'A' || *i != 'T' || *i != 'G' || *i != 'C') {
+        std::cout << *i << typeid(*i).name() << ((*i) == 'A') << std::endl;
+        if (*i != 'A' && *i != 'T' && *i != 'G' && *i != 'C') {
             return false;
         }
     }

@@ -174,27 +174,28 @@ int main( ) {
         cout << trie.size() << " size =? 7" << endl << endl;
         cout << trie.height() << " height =? 6" << endl << endl;
 
+        cout << "********************DATABASE************************" << endl << endl;
         // Tests for DNADatabase
         DNADatabase database;
-        cout << database.countAllGs() << " =? 0" << endl << endl;
-        cout << database.size() << " =? 1" << endl << endl;
-        cout << database.height() << " =? 0" << endl << endl;
-        cout << database.isValid("AGCT");
-        cout << !database.isValid("agct");
-        cout << !database.isValid("AGrCT");
-        cout << !database.findSequence("howard");
-        cout << !database.findSequence("AGCT");
-        cout << database.addSequence("AGCT");
-        cout << database.size() << " =? 5" << endl << endl;
-        cout << database.height() << " =? 4" << endl << endl;
-        cout << !database.addSequence("howard");
-        cout << database.findSequence("AGCT");
-        cout << database.size() << " =? 5" << endl << endl;
-        cout << database.height() << " =? 4" << endl << endl;
-        cout << database.countAllGs() << " =? 0" << endl << endl;
-        cout << database.addSequence("G");
-        cout << database.countAllGs() << " =? 1" << endl << endl;
-        cout << database.addSequence("GG");
+        cout << database.countAllGs() << " countallgs =? 0" << endl << endl;
+        cout << database.size() << " size =? 1" << endl << endl;
+        cout << database.height() << " height =? 0" << endl << endl;
+        cout << database.isValid("AGCT") << "isvalid AGCT" << endl << endl;
+        cout << !database.isValid("agct") << "isvalid agct" << endl << endl;
+        cout << !database.isValid("AGrCT") << "isvalid AGrCT" << endl << endl;
+        cout << !database.findSequence("howard") << "findseq howard" << endl << endl;
+        cout << !database.findSequence("AGCT") << "findseq AGCT" << endl << endl;
+        cout << database.addSequence("AGCT") << "addseq AGCT" << endl << endl;
+        cout << database.size() << " size =? 5" << endl << endl;
+        cout << database.height() << " height =? 4" << endl << endl;
+        cout << !database.addSequence("howard") << "addseq howard" << endl << endl;
+        cout << database.findSequence("AGCT") << "findseq AGCT" << endl << endl;
+        cout << database.size() << " size =? 5" << endl << endl;
+        cout << database.height() << " height=? 4" << endl << endl;
+        cout << database.countAllGs() << " countallgs =? 0" << endl << endl;
+        cout << database.addSequence("G") << " addseq G" << endl << endl;
+        cout << database.countAllGs() << " countallgs =? 1" << endl << endl;
+        cout << database.addSequence("GG") << "addseq GG" << endl << endl;
         cout << database.countAllGs() << " =? 2" << endl << endl;
 
         cout << "all tests passed!" << endl;
