@@ -54,6 +54,8 @@ public:
     
     // stringify this TrieNode and all of its children nodes
     std::string to_string() const;
+
+    void printmap() const;
 private:
     bool mEndOfWord; // is this a leaf node
     std::map< char, TrieNode * > nextNodeMap;  // all the child nodes of this TrieNode

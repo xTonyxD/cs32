@@ -129,12 +129,12 @@ const int List::size() {
     ListNode* node = head;
     int size = 0;
 
-    while (node!= nullptr) {
+    while (node != nullptr) {
         size++;
         node = node->getNext();
     }
     
-    return size + 1;
+    return size;
 }
 
 
