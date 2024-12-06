@@ -151,10 +151,11 @@ int  TrieNode::height() const
     //end condition built in here; if leaf node, nextNodeMap.begin() shoudl return nextNodeMap.end(); for loop exits and height(leafnode) returns 1
     for (i = nextNodeMap.begin(); i != nextNodeMap.end(); i++) { 
         tempMax = i->second->height();
-        cout << i->first << ", max: " << max << ", tempmax: " << tempMax << endl;
+        //cout << i->first << ", max: " << max << ", tempmax: " << tempMax << endl;
         if (tempMax > max) max = tempMax;
     }
-    cout << max + 1<< ", getting out" << endl;
+    
+    << max + 1<< ", getting out" << endl;
     return max + 1; //1 for itself
 }
 // stringify this TrieNode and all of its children nodes
