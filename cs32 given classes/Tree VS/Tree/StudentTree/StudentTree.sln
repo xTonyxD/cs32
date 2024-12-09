@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StudentTree", "StudentTree\StudentTree.vcxproj", "{791361FA-45A4-44AD-B063-50AC39C3665F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{791361FA-45A4-44AD-B063-50AC39C3665F}.Debug|x64.ActiveCfg = Debug|x64
+		{791361FA-45A4-44AD-B063-50AC39C3665F}.Debug|x64.Build.0 = Debug|x64
+		{791361FA-45A4-44AD-B063-50AC39C3665F}.Debug|x86.ActiveCfg = Debug|Win32
+		{791361FA-45A4-44AD-B063-50AC39C3665F}.Debug|x86.Build.0 = Debug|Win32
+		{791361FA-45A4-44AD-B063-50AC39C3665F}.Release|x64.ActiveCfg = Release|x64
+		{791361FA-45A4-44AD-B063-50AC39C3665F}.Release|x64.Build.0 = Release|x64
+		{791361FA-45A4-44AD-B063-50AC39C3665F}.Release|x86.ActiveCfg = Release|Win32
+		{791361FA-45A4-44AD-B063-50AC39C3665F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03F59035-BD57-4903-AD44-5CDA9DDFFCD3}
+	EndGlobalSection
+EndGlobal

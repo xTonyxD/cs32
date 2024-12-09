@@ -1,0 +1,14 @@
+﻿  BadArgument.cpp
+  BinaryHeap.cpp
+  BubbleSort.cpp
+  HeapOverflow.cpp
+  HeapSort.cpp
+  InsertionSort.cpp
+  ItemNotFound.cpp
+  MergeSort.cpp
+  QuickSort.cpp
+  ShellSort.cpp
+  SortDriver.cpp
+  SortRoutine.cpp
+  Generating Code...
+  SortDriver.vcxproj -> C:\Users\stahl_howard\Desktop\SortDriver\x64\Debug\SortDriver.exe
